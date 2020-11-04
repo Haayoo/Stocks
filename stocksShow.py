@@ -79,7 +79,6 @@ else:
     for file in lst_stockfiles:
         with open(file[0], "r") as f:
             dict_contents[file[1]] = f.read()
-    ########################################
     font = {"family": "Microsoft JhengHei", "size": "12"}
     plt.rc("font", **font)
     for key in dict_contents.keys():
